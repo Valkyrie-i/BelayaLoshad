@@ -1,0 +1,42 @@
+.admin{
+    color: white;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin__panel{
+    width: 400px;
+    background: #5960EA;
+    border-radius: 5px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.admin__panel-title{
+    margin-top: -10px;
+}
+.admin__panel-item>input{
+    width: 345px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+.admin__panel-item{
+    margin-top: -10px;
+}
+@media screen and(max-width:430px) {
+    .admin__panel{
+        width: 300px;
+    }
+    .admin__panel-item>input{
+        width: 280px;
+    }
+}
